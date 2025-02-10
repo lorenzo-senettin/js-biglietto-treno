@@ -18,3 +18,8 @@ if (age < 18) { //Prezzo per persone con meno di 18 anni
 if (age > 65) { //Prezzo per persone con più di 65 anni
   price *= 0.6;
 }
+
+
+//Calcolare il prezzo finale e stamparlo a schermo
+const final_price = price.toFixed(2);
+console.log(final_price);
